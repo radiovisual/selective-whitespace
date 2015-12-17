@@ -1,6 +1,6 @@
 {
   "name": "selective-whitespace",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Condense all whitespace in a string, with options to preserve specific whitespace characters.",
   "main": "index.js",
   "scripts": {
@@ -38,7 +38,10 @@
   },
   "homepage": "https://github.com/radiovisual/selective-whitespace#readme",
   "dependencies": {
-    "ava": "^0.7.0",
     "tokenize-whitespace": "0.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.7.0"
   }
+
 }
