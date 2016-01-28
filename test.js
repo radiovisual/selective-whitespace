@@ -3,7 +3,7 @@ import test from 'ava';
 
 
 test('should expect a string', t => {
-    t.throws(() => { selectiveWhitespace({})}, 'Expected a string');
+    t.throws(() => { selectiveWhitespace({})}, 'selective-whitespace expects a string');
 });
 
 test('should condense all whitespace', t => {
