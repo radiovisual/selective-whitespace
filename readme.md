@@ -8,6 +8,7 @@
 $ npm install --save selective-whitespace
 ```
 
+
 ## Usage
 
 ```js
@@ -34,34 +35,40 @@ selectiveWhitespace('\t\nFOO     \t\nBAR      \t\nBAZ', {stripAll:true});
 //=> 'FOOBARBAZ'
 ```
 
+
 ## API
 
 ### selectiveWhitespace(str, [options]);
 
 #### str
 
-The string you want to condense  
-Type: `string`  
-Required  
+*Required*    
+Type: `string`    
+
+The string you want to condense.
 
 #### options
-
-The options you want to use.  
+ 
 Type: `object`  
+
+Set or override the default options.
   
 ##### keep
-
-Values to preserve. Comma or pipe-delimited list.  
+ 
 Type: `string`  
 options: `\n\t\r`  
-  
+
+Comma or pipe-delimited list of values to preserve. You can preserve newlines `\n`, tabs `\t` or return characters `\r`. 
+
 ##### stripAll 
 
-`stripAll` mode will remove all whitespace chars from the string  
 Type: `Boolean`  
 Default: `false`  
   
-  
+`stripAll` mode will remove **all** whitespace characters from the string.
+
+
+
 ## License
 
 MIT © [Michael Wuergler](http://numetriclabs.com)
