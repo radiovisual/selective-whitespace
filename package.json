@@ -1,6 +1,6 @@
 {
   "name": "selective-whitespace",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Condense all string whitespace + options to preserve specific whitespace characters.",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,10 @@
     "tabs",
     "newlines",
     "newline",
+    "return",
+    "character",
+    "selective",
+    "choose",
     "tab",
     "\\n",
     "\\r",
